@@ -1,0 +1,20 @@
+{
+  "name": "eslint-plugin-coherence",
+  "version": "0.0.0-alpha.0",
+  "description": "ESLint plugin to restrict confusing usages",
+  "main": "index.js",
+  "repository": "https://github.com/leonardodino/eslint-plugin-coherence",
+  "author": "Leonardo Dino",
+  "license": "MIT",
+  "scripts": {
+    "lint": "prettier --check '**/*.{js,json,ts,tsx}' --ignore-path .gitignore",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@typescript-eslint/parser": "^2.22.0",
+    "eslint": "^6.8.0",
+    "jest": "^25.1.0",
+    "prettier": "^1.19.1",
+    "typescript": "^3.8.3"
+  }
+}
