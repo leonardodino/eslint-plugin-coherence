@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-coherence",
-  "version": "0.0.0-alpha.1",
+  "version": "0.0.0-alpha.2",
   "description": "ESLint plugin to restrict confusing usages",
   "main": "index.js",
   "repository": "https://github.com/leonardodino/eslint-plugin-coherence",
